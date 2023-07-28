@@ -1,0 +1,192 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.balu.whatsweather"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+8-->C:\Balu\weatherApp-main\weatherApp-main\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->C:\Balu\weatherApp-main\weatherApp-main\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+11-->C:\Balu\weatherApp-main\weatherApp-main\app\src\main\AndroidManifest.xml:5:5-79
+11-->C:\Balu\weatherApp-main\weatherApp-main\app\src\main\AndroidManifest.xml:5:22-76
+12    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+12-->C:\Balu\weatherApp-main\weatherApp-main\app\src\main\AndroidManifest.xml:6:5-81
+12-->C:\Balu\weatherApp-main\weatherApp-main\app\src\main\AndroidManifest.xml:6:22-78
+13    <uses-permission android:name="android.permission.INTERNET" />
+13-->C:\Balu\weatherApp-main\weatherApp-main\app\src\main\AndroidManifest.xml:7:5-67
+13-->C:\Balu\weatherApp-main\weatherApp-main\app\src\main\AndroidManifest.xml:7:22-64
+14    <uses-permission android:name="android.permission.REORDER_TASKS" />
+14-->[androidx.test:core:1.5.0] C:\Users\samue\.gradle\caches\transforms-3\76005ff32ac52c80377b92f2651fea4b\transformed\core-1.5.0\AndroidManifest.xml:24:5-72
+14-->[androidx.test:core:1.5.0] C:\Users\samue\.gradle\caches\transforms-3\76005ff32ac52c80377b92f2651fea4b\transformed\core-1.5.0\AndroidManifest.xml:24:22-69
+15
+16    <application
+16-->C:\Balu\weatherApp-main\weatherApp-main\app\src\main\AndroidManifest.xml:9:5-31:19
+17        android:name="com.balu.whatsweather.WeatherApplication"
+17-->C:\Balu\weatherApp-main\weatherApp-main\app\src\main\AndroidManifest.xml:10:9-64
+18        android:allowBackup="true"
+18-->C:\Balu\weatherApp-main\weatherApp-main\app\src\main\AndroidManifest.xml:11:9-35
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.8.0] C:\Users\samue\.gradle\caches\transforms-3\1a448c90956119deed84d9ba3c06ea59\transformed\core-1.8.0\AndroidManifest.xml:24:18-86
+20        android:dataExtractionRules="@xml/data_extraction_rules"
+20-->C:\Balu\weatherApp-main\weatherApp-main\app\src\main\AndroidManifest.xml:12:9-65
+21        android:debuggable="true"
+22        android:extractNativeLibs="false"
+23        android:fullBackupContent="@xml/backup_rules"
+23-->C:\Balu\weatherApp-main\weatherApp-main\app\src\main\AndroidManifest.xml:13:9-54
+24        android:icon="@mipmap/ic_launcher"
+24-->C:\Balu\weatherApp-main\weatherApp-main\app\src\main\AndroidManifest.xml:14:9-43
+25        android:label="@string/app_name"
+25-->C:\Balu\weatherApp-main\weatherApp-main\app\src\main\AndroidManifest.xml:15:9-41
+26        android:roundIcon="@mipmap/ic_launcher_round"
+26-->C:\Balu\weatherApp-main\weatherApp-main\app\src\main\AndroidManifest.xml:16:9-54
+27        android:supportsRtl="true"
+27-->C:\Balu\weatherApp-main\weatherApp-main\app\src\main\AndroidManifest.xml:17:9-35
+28        android:testOnly="true"
+29        android:theme="@style/Theme.WhatsWeather" >
+29-->C:\Balu\weatherApp-main\weatherApp-main\app\src\main\AndroidManifest.xml:18:9-50
+30        <activity
+30-->C:\Balu\weatherApp-main\weatherApp-main\app\src\main\AndroidManifest.xml:20:9-30:20
+31            android:name="com.balu.whatsweather.MainActivity"
+31-->C:\Balu\weatherApp-main\weatherApp-main\app\src\main\AndroidManifest.xml:21:13-62
+32            android:exported="true"
+32-->C:\Balu\weatherApp-main\weatherApp-main\app\src\main\AndroidManifest.xml:22:13-36
+33            android:label="@string/app_name"
+33-->C:\Balu\weatherApp-main\weatherApp-main\app\src\main\AndroidManifest.xml:23:13-45
+34            android:theme="@style/Theme.WhatsWeather" >
+34-->C:\Balu\weatherApp-main\weatherApp-main\app\src\main\AndroidManifest.xml:24:13-54
+35            <intent-filter>
+35-->C:\Balu\weatherApp-main\weatherApp-main\app\src\main\AndroidManifest.xml:25:13-29:29
+36                <action android:name="android.intent.action.MAIN" />
+36-->C:\Balu\weatherApp-main\weatherApp-main\app\src\main\AndroidManifest.xml:26:17-69
+36-->C:\Balu\weatherApp-main\weatherApp-main\app\src\main\AndroidManifest.xml:26:25-66
+37
+38                <category android:name="android.intent.category.LAUNCHER" />
+38-->C:\Balu\weatherApp-main\weatherApp-main\app\src\main\AndroidManifest.xml:28:17-77
+38-->C:\Balu\weatherApp-main\weatherApp-main\app\src\main\AndroidManifest.xml:28:27-74
+39            </intent-filter>
+40        </activity>
+41        <activity
+41-->[androidx.compose.ui:ui-tooling:1.3.0] C:\Users\samue\.gradle\caches\transforms-3\a61d3569fad1303e5be40effb5bf51a1\transformed\ui-tooling-1.3.0\AndroidManifest.xml:23:9-25:39
+42            android:name="androidx.compose.ui.tooling.PreviewActivity"
+42-->[androidx.compose.ui:ui-tooling:1.3.0] C:\Users\samue\.gradle\caches\transforms-3\a61d3569fad1303e5be40effb5bf51a1\transformed\ui-tooling-1.3.0\AndroidManifest.xml:24:13-71
+43            android:exported="true" />
+43-->[androidx.compose.ui:ui-tooling:1.3.0] C:\Users\samue\.gradle\caches\transforms-3\a61d3569fad1303e5be40effb5bf51a1\transformed\ui-tooling-1.3.0\AndroidManifest.xml:25:13-36
+44        <activity
+44-->[androidx.compose.ui:ui-test-manifest:1.3.0] C:\Users\samue\.gradle\caches\transforms-3\6c6c90dff750a35e343b609815275fec\transformed\ui-test-manifest-1.3.0\AndroidManifest.xml:23:9-25:39
+45            android:name="androidx.activity.ComponentActivity"
+45-->[androidx.compose.ui:ui-test-manifest:1.3.0] C:\Users\samue\.gradle\caches\transforms-3\6c6c90dff750a35e343b609815275fec\transformed\ui-test-manifest-1.3.0\AndroidManifest.xml:24:13-63
+46            android:exported="true" />
+46-->[androidx.compose.ui:ui-test-manifest:1.3.0] C:\Users\samue\.gradle\caches\transforms-3\6c6c90dff750a35e343b609815275fec\transformed\ui-test-manifest-1.3.0\AndroidManifest.xml:25:13-36
+47        <activity
+47-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\samue\.gradle\caches\transforms-3\885fe7da882c6d60a12e3a9a32fd663b\transformed\play-services-base-18.1.0\AndroidManifest.xml:20:9-22:45
+48            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+48-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\samue\.gradle\caches\transforms-3\885fe7da882c6d60a12e3a9a32fd663b\transformed\play-services-base-18.1.0\AndroidManifest.xml:20:19-85
+49            android:exported="false"
+49-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\samue\.gradle\caches\transforms-3\885fe7da882c6d60a12e3a9a32fd663b\transformed\play-services-base-18.1.0\AndroidManifest.xml:22:19-43
+50            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+50-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\samue\.gradle\caches\transforms-3\885fe7da882c6d60a12e3a9a32fd663b\transformed\play-services-base-18.1.0\AndroidManifest.xml:21:19-78
+51
+52        <meta-data
+52-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\samue\.gradle\caches\transforms-3\5c4bb2049ee48e64fd83766a40e27aaa\transformed\play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
+53            android:name="com.google.android.gms.version"
+53-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\samue\.gradle\caches\transforms-3\5c4bb2049ee48e64fd83766a40e27aaa\transformed\play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
+54            android:value="@integer/google_play_services_version" />
+54-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\samue\.gradle\caches\transforms-3\5c4bb2049ee48e64fd83766a40e27aaa\transformed\play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
+55
+56        <activity
+56-->[androidx.test:core:1.5.0] C:\Users\samue\.gradle\caches\transforms-3\76005ff32ac52c80377b92f2651fea4b\transformed\core-1.5.0\AndroidManifest.xml:27:9-34:20
+57            android:name="androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity"
+57-->[androidx.test:core:1.5.0] C:\Users\samue\.gradle\caches\transforms-3\76005ff32ac52c80377b92f2651fea4b\transformed\core-1.5.0\AndroidManifest.xml:28:13-99
+58            android:exported="true"
+58-->[androidx.test:core:1.5.0] C:\Users\samue\.gradle\caches\transforms-3\76005ff32ac52c80377b92f2651fea4b\transformed\core-1.5.0\AndroidManifest.xml:29:13-36
+59            android:theme="@style/WhiteBackgroundTheme" >
+59-->[androidx.test:core:1.5.0] C:\Users\samue\.gradle\caches\transforms-3\76005ff32ac52c80377b92f2651fea4b\transformed\core-1.5.0\AndroidManifest.xml:30:13-56
+60            <intent-filter android:priority="-100" >
+60-->[androidx.test:core:1.5.0] C:\Users\samue\.gradle\caches\transforms-3\76005ff32ac52c80377b92f2651fea4b\transformed\core-1.5.0\AndroidManifest.xml:31:13-33:29
+60-->[androidx.test:core:1.5.0] C:\Users\samue\.gradle\caches\transforms-3\76005ff32ac52c80377b92f2651fea4b\transformed\core-1.5.0\AndroidManifest.xml:31:28-51
+61                <category android:name="android.intent.category.LAUNCHER" />
+61-->C:\Balu\weatherApp-main\weatherApp-main\app\src\main\AndroidManifest.xml:28:17-77
+61-->C:\Balu\weatherApp-main\weatherApp-main\app\src\main\AndroidManifest.xml:28:27-74
+62            </intent-filter>
+63        </activity>
+64        <activity
+64-->[androidx.test:core:1.5.0] C:\Users\samue\.gradle\caches\transforms-3\76005ff32ac52c80377b92f2651fea4b\transformed\core-1.5.0\AndroidManifest.xml:35:9-42:20
+65            android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity"
+65-->[androidx.test:core:1.5.0] C:\Users\samue\.gradle\caches\transforms-3\76005ff32ac52c80377b92f2651fea4b\transformed\core-1.5.0\AndroidManifest.xml:36:13-95
+66            android:exported="true"
+66-->[androidx.test:core:1.5.0] C:\Users\samue\.gradle\caches\transforms-3\76005ff32ac52c80377b92f2651fea4b\transformed\core-1.5.0\AndroidManifest.xml:37:13-36
+67            android:theme="@style/WhiteBackgroundTheme" >
+67-->[androidx.test:core:1.5.0] C:\Users\samue\.gradle\caches\transforms-3\76005ff32ac52c80377b92f2651fea4b\transformed\core-1.5.0\AndroidManifest.xml:38:13-56
+68            <intent-filter android:priority="-100" >
+68-->[androidx.test:core:1.5.0] C:\Users\samue\.gradle\caches\transforms-3\76005ff32ac52c80377b92f2651fea4b\transformed\core-1.5.0\AndroidManifest.xml:31:13-33:29
+68-->[androidx.test:core:1.5.0] C:\Users\samue\.gradle\caches\transforms-3\76005ff32ac52c80377b92f2651fea4b\transformed\core-1.5.0\AndroidManifest.xml:31:28-51
+69                <category android:name="android.intent.category.LAUNCHER" />
+69-->C:\Balu\weatherApp-main\weatherApp-main\app\src\main\AndroidManifest.xml:28:17-77
+69-->C:\Balu\weatherApp-main\weatherApp-main\app\src\main\AndroidManifest.xml:28:27-74
+70            </intent-filter>
+71        </activity>
+72        <activity
+72-->[androidx.test:core:1.5.0] C:\Users\samue\.gradle\caches\transforms-3\76005ff32ac52c80377b92f2651fea4b\transformed\core-1.5.0\AndroidManifest.xml:43:9-50:20
+73            android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyFloatingActivity"
+73-->[androidx.test:core:1.5.0] C:\Users\samue\.gradle\caches\transforms-3\76005ff32ac52c80377b92f2651fea4b\transformed\core-1.5.0\AndroidManifest.xml:44:13-103
+74            android:exported="true"
+74-->[androidx.test:core:1.5.0] C:\Users\samue\.gradle\caches\transforms-3\76005ff32ac52c80377b92f2651fea4b\transformed\core-1.5.0\AndroidManifest.xml:45:13-36
+75            android:theme="@style/WhiteBackgroundDialogTheme" >
+75-->[androidx.test:core:1.5.0] C:\Users\samue\.gradle\caches\transforms-3\76005ff32ac52c80377b92f2651fea4b\transformed\core-1.5.0\AndroidManifest.xml:46:13-62
+76            <intent-filter android:priority="-100" >
+76-->[androidx.test:core:1.5.0] C:\Users\samue\.gradle\caches\transforms-3\76005ff32ac52c80377b92f2651fea4b\transformed\core-1.5.0\AndroidManifest.xml:31:13-33:29
+76-->[androidx.test:core:1.5.0] C:\Users\samue\.gradle\caches\transforms-3\76005ff32ac52c80377b92f2651fea4b\transformed\core-1.5.0\AndroidManifest.xml:31:28-51
+77                <category android:name="android.intent.category.LAUNCHER" />
+77-->C:\Balu\weatherApp-main\weatherApp-main\app\src\main\AndroidManifest.xml:28:17-77
+77-->C:\Balu\weatherApp-main\weatherApp-main\app\src\main\AndroidManifest.xml:28:27-74
+78            </intent-filter>
+79        </activity>
+80
+81        <provider
+81-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\samue\.gradle\caches\transforms-3\1ec167568b8836f686685ab67a3900c3\transformed\profileinstaller-1.2.0\AndroidManifest.xml:25:9-33:20
+82            android:name="androidx.startup.InitializationProvider"
+82-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\samue\.gradle\caches\transforms-3\1ec167568b8836f686685ab67a3900c3\transformed\profileinstaller-1.2.0\AndroidManifest.xml:26:13-67
+83            android:authorities="com.balu.whatsweather.androidx-startup"
+83-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\samue\.gradle\caches\transforms-3\1ec167568b8836f686685ab67a3900c3\transformed\profileinstaller-1.2.0\AndroidManifest.xml:27:13-68
+84            android:exported="false" >
+84-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\samue\.gradle\caches\transforms-3\1ec167568b8836f686685ab67a3900c3\transformed\profileinstaller-1.2.0\AndroidManifest.xml:28:13-37
+85            <meta-data
+85-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\samue\.gradle\caches\transforms-3\1ec167568b8836f686685ab67a3900c3\transformed\profileinstaller-1.2.0\AndroidManifest.xml:30:13-32:52
+86                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+86-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\samue\.gradle\caches\transforms-3\1ec167568b8836f686685ab67a3900c3\transformed\profileinstaller-1.2.0\AndroidManifest.xml:31:17-85
+87                android:value="androidx.startup" />
+87-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\samue\.gradle\caches\transforms-3\1ec167568b8836f686685ab67a3900c3\transformed\profileinstaller-1.2.0\AndroidManifest.xml:32:17-49
+88        </provider>
+89
+90        <receiver
+90-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\samue\.gradle\caches\transforms-3\1ec167568b8836f686685ab67a3900c3\transformed\profileinstaller-1.2.0\AndroidManifest.xml:35:9-47:20
+91            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+91-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\samue\.gradle\caches\transforms-3\1ec167568b8836f686685ab67a3900c3\transformed\profileinstaller-1.2.0\AndroidManifest.xml:36:13-76
+92            android:directBootAware="false"
+92-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\samue\.gradle\caches\transforms-3\1ec167568b8836f686685ab67a3900c3\transformed\profileinstaller-1.2.0\AndroidManifest.xml:37:13-44
+93            android:enabled="true"
+93-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\samue\.gradle\caches\transforms-3\1ec167568b8836f686685ab67a3900c3\transformed\profileinstaller-1.2.0\AndroidManifest.xml:38:13-35
+94            android:exported="true"
+94-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\samue\.gradle\caches\transforms-3\1ec167568b8836f686685ab67a3900c3\transformed\profileinstaller-1.2.0\AndroidManifest.xml:39:13-36
+95            android:permission="android.permission.DUMP" >
+95-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\samue\.gradle\caches\transforms-3\1ec167568b8836f686685ab67a3900c3\transformed\profileinstaller-1.2.0\AndroidManifest.xml:40:13-57
+96            <intent-filter>
+96-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\samue\.gradle\caches\transforms-3\1ec167568b8836f686685ab67a3900c3\transformed\profileinstaller-1.2.0\AndroidManifest.xml:41:13-43:29
+97                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+97-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\samue\.gradle\caches\transforms-3\1ec167568b8836f686685ab67a3900c3\transformed\profileinstaller-1.2.0\AndroidManifest.xml:42:17-91
+97-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\samue\.gradle\caches\transforms-3\1ec167568b8836f686685ab67a3900c3\transformed\profileinstaller-1.2.0\AndroidManifest.xml:42:25-88
+98            </intent-filter>
+99            <intent-filter>
+99-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\samue\.gradle\caches\transforms-3\1ec167568b8836f686685ab67a3900c3\transformed\profileinstaller-1.2.0\AndroidManifest.xml:44:13-46:29
+100                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+100-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\samue\.gradle\caches\transforms-3\1ec167568b8836f686685ab67a3900c3\transformed\profileinstaller-1.2.0\AndroidManifest.xml:45:17-85
+100-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\samue\.gradle\caches\transforms-3\1ec167568b8836f686685ab67a3900c3\transformed\profileinstaller-1.2.0\AndroidManifest.xml:45:25-82
+101            </intent-filter>
+102        </receiver>
+103    </application>
+104
+105</manifest>
